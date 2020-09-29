@@ -1,0 +1,15 @@
+.videoHeader {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  color: aliceblue;
+  width: 100%;
+}
+
+.videoHeader > h3 {
+  margin: 0px;
+}
+
+.videoHeader > * {
+  padding: 20px;
+}

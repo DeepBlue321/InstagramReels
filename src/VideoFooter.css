@@ -1,0 +1,79 @@
+.videoFooter {
+  position: relative;
+  margin-left: 10px;
+  bottom: 180px;
+  height: 150px;
+}
+
+.videoFooter__text {
+  position: absolute;
+  color: aliceblue;
+  display: flex;
+  font-size: 15px;
+  margin-top: 25px;
+  padding: 0;
+}
+.videoFooter__actions {
+  display: flex;
+  position: absolute;
+  width: 95%;
+  color: white;
+  justify-content: space-around;
+  height: 20px;
+  bottom: 0;
+}
+.videoFooter__actionsLeft > .MuiSvgIcon-root {
+  width: 20px;
+  margin-right: 10px;
+}
+.videoFooter__actionsRight {
+  display: flex;
+}
+
+.videoFooter__stat {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.videoFooter__stat > .MuiSvgIcon-root {
+  width: 15px;
+}
+
+.videoFooter__stat > p {
+  margin-left: 10px;
+}
+.videoFooter__text > h3 {
+  margin-left: 10px;
+}
+
+.videoFooter__text > h3 > button {
+  color: aliceblue;
+  text-transform: inherit;
+}
+
+.videoFooter__ticker > .ticker {
+  height: fit-content;
+  margin-left: 25px;
+  width: 100%;
+}
+.videoFooter__ticker {
+  display: flex;
+  position: absolute;
+  justify-content: space-around;
+  top: 80px;
+  width: 90%;
+}
+
+.videoFooter__ticker h1 {
+  padding-top: 7px;
+  font-size: 12px;
+  color: aliceblue;
+}
+
+.videoFooter__icon {
+  position: absolute;
+  left: 5px;
+  color: white;
+  top: 10px;
+}
